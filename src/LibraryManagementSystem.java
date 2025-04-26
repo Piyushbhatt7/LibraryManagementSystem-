@@ -16,7 +16,7 @@ public class LibraryManagementSystem extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
 
-        JLabel idLabel = new JLabel("Book ID:");
+        JLabel idLabel = new JLabel("Book ID:"); 
         idField = new JTextField(10);
 
         JLabel titleLabel = new JLabel("Title:");
