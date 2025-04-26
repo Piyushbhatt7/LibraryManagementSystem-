@@ -7,7 +7,7 @@ public class LibraryManagementSystem extends JFrame {
     private JTextArea displayArea;
 
     Connection con;  
-    PreparedStatement pst;               
+    PreparedStatement pst;                
     ResultSet rs; 
  
     public LibraryManagementSystem() {
