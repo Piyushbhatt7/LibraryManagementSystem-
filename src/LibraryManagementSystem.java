@@ -6,7 +6,7 @@ public class LibraryManagementSystem extends JFrame {
     private JTextField titleField, authorField, yearField, idField;
     private JTextArea displayArea;
 
-    Connection con;           
+    Connection con;            
     PreparedStatement pst;                  
     ResultSet rs; 
  
