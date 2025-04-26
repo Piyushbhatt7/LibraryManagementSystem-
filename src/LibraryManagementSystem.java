@@ -7,10 +7,10 @@ public class LibraryManagementSystem extends JFrame {
     private JTextArea displayArea;
  
     Connection con;              
-    PreparedStatement pst;                          
+    PreparedStatement pst;                           
     ResultSet rs; 
  
-    public LibraryManagementSystem() {
+    public LibraryManagementSystem() {  
         setTitle("Library Management System");
         setSize(600, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
