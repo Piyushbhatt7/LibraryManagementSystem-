@@ -1,18 +1,48 @@
-## Getting Started
+# Library Management System 📚 (Java Swing + JDBC)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple **Library Management System** project built using **Java Swing** for GUI and **JDBC** for database operations.  
+It allows users to perform **CRUD (Create, Read, Update, Delete)** operations on a library database.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## ✨ Features
+- Add new books to the library 📖
+- View all books stored in the database 👀
+- Update book information 🖊️
+- Delete books from the library 🗑️
+- Interactive GUI using Java Swing
+- Database connectivity using JDBC (MySQL)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Some Pictures :-
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- ![ChatGPT Image Apr 26, 2025, 09_40_09 PM](https://github.com/user-attachments/assets/c135f8b9-acc0-43a9-a1be-c167e8f38533)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+---
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🛠️ Technologies Used
+- Java (JDK 8 or higher)
+- Swing (GUI Design)
+- JDBC (Database Connectivity)
+- MySQL (Database)
+- MySQL Connector/J (JAR file)
+
+---
+
+## 🔧 How to Set Up and Run
+
+### 1. Set up Database
+- Open your MySQL Workbench or phpMyAdmin.
+- Run the following SQL commands:
+
+```sql
+CREATE DATABASE librarydb;
+
+USE librarydb;
+
+CREATE TABLE books (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    year INT
+);
