@@ -37,7 +37,7 @@ public class LibraryManagementSystem extends JFrame {
         displayArea.setEditable(false);
         JScrollPane scrollPane = new JScrollPane(displayArea);
 
-        add(idLabel); add(idField); 
+        add(idLabel); add(idField);   
         add(titleLabel); add(titleField);                 
         add(authorLabel); add(authorField); 
         add(yearLabel); add(yearField);
