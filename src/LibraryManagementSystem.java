@@ -42,8 +42,8 @@ public class LibraryManagementSystem extends JFrame {
         add(authorLabel); add(authorField); 
         add(yearLabel); add(yearField);
     
-        add(addButton);    
-        add(viewButton);
+        add(addButton);     
+        add(viewButton); 
         add(updateButton);
         add(deleteButton);
         add(scrollPane);
