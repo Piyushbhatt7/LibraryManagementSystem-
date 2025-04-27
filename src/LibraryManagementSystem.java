@@ -43,7 +43,7 @@ public class LibraryManagementSystem extends JFrame {
         add(yearLabel); add(yearField);
     
         add(addButton);      
-        add(viewButton);  
+        add(viewButton);   
         add(updateButton);
         add(deleteButton);
         add(scrollPane);
