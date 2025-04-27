@@ -44,7 +44,7 @@ public class LibraryManagementSystem extends JFrame {
     
         add(addButton);      
         add(viewButton);     
-        add(updateButton);
+        add(updateButton);  
         add(deleteButton);
         add(scrollPane);
 
