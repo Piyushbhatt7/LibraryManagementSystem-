@@ -1,5 +1,5 @@
 CREATE DATABASE librarydb;
-
+ 
 USE librarydb;
 
 CREATE TABLE books (
