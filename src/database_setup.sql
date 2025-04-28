@@ -8,3 +8,4 @@ CREATE TABLE books (
     author VARCHAR(255) NOT NULL,
     year INT  
 );
+  
